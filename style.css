@@ -1,0 +1,110 @@
+.nav-set{
+    display: flex;
+    background-color: lightslategrey;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: solid;
+}
+.nav-links a:hover {
+    color: yellow;
+}
+.hero-set {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: lightgray;
+}
+.hero-set button {
+    padding: 10px 20px;
+    background-color: orange;
+    cursor: pointer;
+}
+.hero-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+.about-set {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color:lightslategrey;
+}
+.about-images img {
+    border-radius: 20px;
+    margin: 10px;
+}
+.menu-set {
+    padding: 40px;
+    text-align: center;
+    background-color: lightblue;
+}
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menu-card {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(103, 232, 67);
+    border-radius: 20px;
+}
+.menu-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.menu-card-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(17, 0, 255);
+    border: none;
+    cursor: pointer;
+}
+.booking-set {
+    padding: 40px;
+    text-align: center;
+    background-color:lightslategrey;
+}
+.booking-set form {
+    display: inline-block;
+    text-align: left;
+}
+.booking textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.booking button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.booking-form{
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
